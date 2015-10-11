@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #ffffff;
+    font-family:'latoblack', Arial;
+    font-size: 14px;
+    line-height: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+a {
+    color: #003366;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+input[type=text], input type[type=password], textarea {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+.alignleft {
+    float: left;
+    margin-right: 10px;
+}
+.aligncenter {
+    display: block;
+    margin: 10px auto;
+}
+.alignright {
+    float: right;
+    margin-left: 10px;
+}
+.stracture {
+    width: 1024px;
+    margin: 0 auto;
+    display: block;
+    -webkit-transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    -ms-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+}
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+.fix {
+    overflow: hidden;
+}
+.header {
+    margin-top: 30px;
+}
+.header_area {
+    background: #EDF5FC;
+}
+.logo {
+    font-family:'latoblack';
+    width: 425px;
+}
+.logo img {
+    float: left;
+    margin: 30px 0 30px 100px;
+}
+.logo p {
+    color: #34495E;
+    float: right;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 30px;
+}
+.mainmenu {
+    margin: 35px 60px 30px 5px;
+    width: 530px;
+}
+.mainmenu ul {
+    color: #7F8C8D;
+    font-family: latoblack;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+.mainmenu ul li {
+    float: left;
+}
+.mainmenu ul li a {
+    display: block;
+    color: #7f8c8d;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+.mainmenu ul li a:hover, #current {
+    background: #1abc9c;
+    color: #fff;
+    text-decoration: none;
+}
+.download_button {
+    background: none repeat scroll 0 0 #E06D1A;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 30px;
+    margin: 50px auto;
+    padding: 20px 50px;
+    text-align: center;
+    width: 220px;
+}
+.download_button a {
+    color: #FFFFFF;
+    font-family: latoblack;
+    font-weight: bold;
+}
+.download_button a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.button_text {
+    color: #7F8C8D;
+    margin: 10px auto;
+    text-align: center;
+    width: 450px;
+}
+.simple_button {
+    margin-bottom: 60px;
+}
+.simple_button_area {
+    background: #EDF5FC;
+}
+.promo_area {
+    background: #EDF5FC;
+}
+.main_promo {
+    padding: 30px;
+}
+.main_promo ul {
+    color: #7F8C8D;
+    font-family: latoblack;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.main_promo ul li {
+    display: block;
+    float: left;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    text-align: justify;
+    width: 260px;
+}
+.main_promo ul li p {
+    margin-left: 65px;
+    margin-top: 0;
+}
+.promo1 {
+    background: url(../img/promo1.png)no-repeat scroll 0 0;
+}
+.promo2 {
+    background: url(../img/promo2.png)no-repeat scroll 0 0;
+}
+.promo3 {
+    background: url(../img/promo3.png)no-repeat scroll 0 0;
+}
+.promo4 {
+    background: url(../img/promo4.png)no-repeat scroll 0 0;
+}
+.promo5 {
+    background: url(../img/promo5.png)no-repeat scroll 0 0;
+}
+.promo6 {
+    background: url(../img/promo6.png)no-repeat scroll 0 0;
+}
+.video_area {
+    background: none repeat scroll 0 0 #95A5A6;
+    min-height: 660px;
+}
+.video_area h1 {
+    color: #FFFFFF;
+    font-family:'latoblack';
+    font-size: 30px;
+    margin: 50px auto 20px;
+    width: 600px;
+}
+.video_area p {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 630px;
+}
+.vimo {
+    margin: 35px auto;
+    width: 660px;
+}
+.footer {
+    margin-top: 50px;
+}
+.footer_area {
+    margin-bottom: 50px;
+}
+.footer_area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.footer_area ul li {
+    display: inline;
+    margin-right: 10px;
+}
+.footer_area ul li a {
+    display: inline-block;
+}
+.copyright p {
+    color: #2C3E50;
+    font-family: latoblack;
+    margin-top: 30px;
+    text-align: center;
+}
